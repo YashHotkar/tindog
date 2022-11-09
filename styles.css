@@ -22,18 +22,19 @@ h1{
   right: 24%;
   position: absolute;
 }
-@media (max-width:1028px){            
+}
+.titleimgcol{
+  position: relative;
+}
+
+@media (max-width:1028px){ 
+ .rotateimg{
     position: static;
     transform: rotate(0);
     }
     #title{
     text-align: center;
  }
-}
-.titleimgcol{
-  position: relative;
-}
-
 .navbar{
   padding:0 0 4.5rem;
 }
