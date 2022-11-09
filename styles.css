@@ -15,7 +15,6 @@ h1{
 .container-fluid{
   padding: 3% 15% 7%;
 }
- /* Title img */
 
 .rotateimg {
   transform: rotate(25deg);
@@ -23,8 +22,7 @@ h1{
   right: 24%;
   position: absolute;
 }
- @media (max-width:1028px){             /* #media query - for mobile and tablset screens */
-  .rotateimg{
+ @media (max-width:1028px){            
     position: static;
     transform: rotate(0);
   }
@@ -52,25 +50,25 @@ h1{
   font-weight: lighter;
 }
 
-/* download buttons */
+
 .download-buttons{
  margin:5% 3% 5% 0;
 
 }
 
-/* Features */
+
 #features{
-   padding: 7% 15%; /*add padding to the row */
+   padding: 7% 15%; 
    position: relative;
    z-index: 1;
    background-color: #fff;
 }
 .row1{
-   text-align: center;  /*centre align the text */
+   text-align: center;  
 }
 .item{
   padding-left: 5%;
- padding-right: 5%;  /* add padding to each columns */
+ padding-right: 5%;  
 }
 h3{
   font-family: 'Montserrat-Bold';
@@ -88,7 +86,7 @@ p{
   color: #ff4c68;
 }
 
-/* Testimonials */
+
 
   #testimonials{
     text-align: center;
@@ -96,7 +94,7 @@ p{
     color: #fff;
   }
 .carousel-item{
-   padding: 7% 15%;        /*take the padiing from the testimonial section and paste it here so that the buttons are not padded and r outside the slides */
+   padding: 7% 15%;        
 }
 h2{
   font-family: "Montserrat-bold";
@@ -119,7 +117,7 @@ h2{
   margin: 0 50px 4%;
 }
 
-/* Pricing */
+
 #pricing{
   padding: 100px;
 }
@@ -129,7 +127,7 @@ h2{
   margin: 10% 5%;
 }
 
-/* Call to Action */
+
 
 #cta{
   text-align: center;
