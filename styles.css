@@ -22,18 +22,18 @@ h1{
   right: 24%;
   position: absolute;
 }
- @media (max-width:1028px){            
+@media (max-width:1028px){            
     position: static;
     transform: rotate(0);
-  }
-  #title{
+    }
+    #title{
     text-align: center;
-  }
+ }
 }
 .titleimgcol{
   position: relative;
 }
-/* nav-bar */
+
 .navbar{
   padding:0 0 4.5rem;
 }
@@ -53,7 +53,6 @@ h1{
 
 .download-buttons{
  margin:5% 3% 5% 0;
-
 }
 
 
@@ -76,7 +75,7 @@ h3{
   font-size: 1.8rem;
 }
 p{
-  color: grey;
+  color: #6B728E;
 }
 .icon{
  color: #ef8172;
@@ -85,8 +84,6 @@ p{
 .icon:hover{
   color: #ff4c68;
 }
-
-
 
   #testimonials{
     text-align: center;
@@ -147,7 +144,6 @@ h2{
   margin-right: 1.5%;
 }
 
-/* Footer */
 #footer{
 text-align: center;
   padding:5%;
